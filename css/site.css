@@ -1,43 +1,44 @@
-@import url(http://fonts.googleapis.com/css?family=Vollkorn:700italic);
+﻿/*@import url(http://fonts.googleapis.com/css?family=Vollkorn:700italic);
 
 * {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 body {
-    background: #dddddd;
+  background: #ddd;
 }
 
 #page {
-    border: 1px solid #666666;
-    border-radius: 5px;
-    background: #ffffff;
-    margin: 0 auto;
-    padding: 12px;
-    width: 989px;
+  border: 1px solid #666;
+  border-radius: 5px;
+  background: #fff;
+  margin: 0 auto;
+  padding: 12px;
+  width: 989px;
 }
 
 #menu {
-    float: right;
+  float: right;
 }
 
-#menu ul {
+  #menu ul {
     list-style: none;
-}
+  }
 
-#menu ul li {
-    display: inline;
-    margin: 0 4px;
-}
+    #menu ul li {
+      display: inline;
+      margin: 0 4px;
+    }
 
 form > * {
-    display: block;
+  display: block;
 }
 
 #logo a {
-    font-size: 60px;
-    font-family: 'Vollkorn', serif;
-    text-decoration: none;
-    color: #c14d00;
-    font-style: italic;
+  font-size: 60px;
+  font-family: 'Vollkorn', serif;
+  text-decoration: none;
+  color: #c14d00;
+  font-style: italic;
 }
+*/
