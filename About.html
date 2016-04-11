@@ -10,21 +10,32 @@
   
 </head>
 <body>
-  <div id="page">
-    <header>
-      <div id="menu">
-        <ul>
-          <li><a href=".">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-      <div id="logo">
-        <a href='.'>The Big Lebowski</a>
+    <div id="page">
+    <header class="container">
+      <div id="menu" class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar-header">
+          <button class="btn btn-success navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="glyphicon glyphicon-chevron-down"></span>
+          </button>
+          <div id="logo">
+            <a href='.'>
+              <h4>The Big Lebowski</h4>
+            </a>
+          </div>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="nav"><a href=".">Home</a>
+            </li>
+            <li class="nav active"><a href="about.html">About</a>
+            </li>
+            <li class="nav"><a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
-
-    <section id="body">
+    <section id="body" class="container">
       <h1>About The Big Lebowski</h1>
       <p>Yeah well, that's just, ya know, like, your opinion, man. Walter, you can't do that. These guys're like me, they're pacifists. Smokey was a conscientious objector. Your "revolution" is over, Mr. Lebowski! Condolences! The bums lost! Brandt can't watch though. Or he has to pay a hundred. HERE'S WHAT HAPPENS, LARRY! Darkness warshed over the Dude— darker'n a black steer's tookus on a moonless prairie night. There was no bottom.</p>
 
@@ -112,7 +123,7 @@
       </div>
 
       <h3>Photo Attributions</h3>
-      <div class="col-md-6"></div>
+      <div class="col-md-6">
         <ul class="list-group">
             <li class="list-group-item">
                 <span class="badge">
@@ -120,7 +131,7 @@
                 </span>
                 <a href="http://www.flickr.com/photos/78011127@N00" property="cc:attributionName" rel="cc:attributionURL" target="_blank">ginnerobot</a> on <a href="http://www.flickr.com/photos/78011127@N00/3288988832" property="cc:attributionName" rel="cc:attributionURL" target="_blank">Flickr</a>
                 </li>
-                <li class="list-group-item">
+                <li class="list-group-item active">
                 <a href="http://www.flickr.com/photos/a4gpa" property="cc:attributionName" rel="cc:attributionURL" target="_blank">a4gpa</a> on <a href="http://www.flickr.com/photos/a4gpa/2311699407/" property="cc:attributionName" rel="cc:attributionURL" target="_blank">Flickr</a>
                 </li>
                 <li class="list-group-item">
@@ -142,7 +153,7 @@
        </div>
     </section>
     <hr />
-    <footer>
+    <footer class="container">
       <p>Text placeholders courtesy of <a href="http://www.lebowskiipsum.com/">Lebowski Ipsum</a>.</p>
     </footer>
   </div>
