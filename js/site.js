@@ -19,5 +19,11 @@
   $sentDialog.on("hidden.bs.modal", function () {
       alert("close");
   });
-
+  
+  $("#contactForm input[type=submit]").tooltip({
+      delay: {
+          show: 500,
+          hide: 0
+      }
+ } );
 })();
