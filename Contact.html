@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/amelia-bootstrap.min.css">
   <link href="css/site.css" rel="stylesheet" />
 </head>
+
 <body>
   <div id="page">
     <header class="container">
@@ -48,12 +49,22 @@
       <h1>Contact Us</h1>
       </div>
       <p>This doesn't really work, but it's an example of a form. Easy, man. Relax, man.</p>
+      <ul class="nav nav-tabs nav-justified">
+          <li class="active"><a href="#formTab" data-toggle="tab"> Contact form</a></li>
+          <li><a href="#addressTab" data-toggle="tab">Address</a></li>
+      </ul>
+       <div class="tab-content">
+        <div class="well tab-pane active" id="formTab">
       <div class="row">
-            <form class="form-horizontal">
+            <form class="form-horizontal" id="contactForm">
+        
                 <div class="form-group">
                         <label for="nameInput" class="control-label col-md-2">Your Name</label>
                         <div class="col-md-10">
                             <div class="input-group">
+                                <span class="input-group-addon">
+                      <span class="glyphicon glyphicon-chevron-down"></span>
+                    </span>
                             <input type="text"
                             name="nameImput"
                             class="form-control"
@@ -146,8 +157,10 @@
             </div>
           </div>
       </form>
-      <a href="#sentDialog" class="btn btn-info" data-toggle="modal">Show Dialog...</a>
+      <!--<a href="#sentDialog" class="btn btn-info" data-toggle="modal">Show Dialog...</a>-->
       </div>
+      </div>
+      <div class="well tab-pane" id="addressTab">
       <h3>Our fake address</h3>
       <div>
         <address> 
@@ -165,6 +178,8 @@
           <strong>Marketing:</strong> <a href="mailto:Marketing@fakelebowskifansite.com">Marketing@fakelebowskifansite.com</a>
         </address>
       </div>
+      </div>
+     </div>
     </section>
     <hr />
     <footer class="container">
